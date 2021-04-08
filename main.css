@@ -35,11 +35,16 @@ body {
   }
     .header-logo {
       height:               80px;
+      padding:              15px 245px;
       display:              flex;
       flex-direction:       row;
-      align-content:        center;
-      justify-content:      center;
+      align-items:          center;
+      justify-content:      flex-start;
     }
+      .header-logo-img {
+        position: absolute;
+        left: 50%;
+      }
     
     .header-nav {
       height:               80px;
@@ -107,14 +112,14 @@ body {background-color: var(--bodycolor)}
 
 
 .btn {
-  display: block;
+  display: inline-block;
   width: 160px;
   height: 40px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   border: 2px solid #FFFFFF;
   border-radius: 24px;
   opacity: 1;
-  padding: 10px 10px 10py 10py;
+  padding: 10px 20px;
   text-align: center;
   }
 
