@@ -1,0 +1,52 @@
+/*-----------------*\
+    Basic settings
+\*-----------------*/
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --main-bgcolor: #6200EA;
+}
+
+
+/*-----------------*\
+   Layout settings
+\*-----------------*/
+
+.header {
+  width: 1600px;
+  height: 80px;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows:auto;
+  grid-template-areas:
+    "main-content main-content side-bar"
+}
+
+/*-----------------*\
+   Style settings
+\*-----------------*/
+
+.header-logo {background-color: var(--main-bgcolor);}
+.header-nav {background-color:}
+
+/*-----------------*\
+   Components
+\*-----------------*/
+
+.btn {
+  display: inline-block;
+  width: 160px;
+  height: 40px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 2px solid #FFFFFF;
+  border-radius: 24px;
+  opacity: 1;
+  padding: auto;
+  }
